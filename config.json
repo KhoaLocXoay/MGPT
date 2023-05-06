@@ -1,0 +1,15 @@
+{
+    "site_config": {
+        "host" : "0.0.0.0",
+        "port" : 1338,
+        "debug": false
+    },
+    "openai_key": "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",
+
+    "openai_api_base": "https://api.openai.com",
+    "proxy": {
+        "enable": false,
+        "http": "127.0.0.1:7890",
+        "https": "127.0.0.1:7890"
+    }
+}
