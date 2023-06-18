@@ -78,14 +78,14 @@
                     </button>
                     <div class="info">
                         <i class="fa-regular fa-circle-info"></i>
-                        <span class="convo-title">By: Necakco@Khoa<br>
+                        <span class="convo-title">By: @xtekky<br>
                             Version: 0.0.1-beta<br>
-                            Release: 2023-05-05<br>
+                            Release: 2023-04-18<br>
                         </span>
                     </div>
                 </div>
             </div>
-            <div class="conversation">
+            <div class="conversation disable-scrollbars">
                 <div class="stop_generating stop_generating-hidden">
                     <button id="cancelButton">
                         <span>Stop Generating</span>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="user-input">
                     <div class="box input-box">
-                        <textarea id="message-input" placeholder="Ask a question" cols="30" rows="10" style="white-space: pre-wrap;"></textarea>
+                        <textarea id="message-input" placeholder="Ask a question" cols="30" rows="10" style="white-space: pre-wrap;" oninput="resizeTextarea(this)"></textarea>
                         <div id="send-button">
                             <i class="fa-regular fa-paper-plane-top"></i>
                         </div>
