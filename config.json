@@ -1,6 +1,6 @@
 {
     "site_config": {
-        "host" : "0.0.0.0",
+        "host" : "https://mgpt-67nv.onrender.com/",
         "port" : 1338,
         "debug": true
     },
